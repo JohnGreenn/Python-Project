@@ -1,0 +1,12 @@
+find name,age from staff_table where age>22
+find * from staff_table where age>50
+update staff_table set age=95 where name=Jack Ma
+update staff_table set dept=信息部门 where dept=IT
+update staff_table set dept=ZOO where dept=HR
+update staff_table set dept=HR where dept=ZOO
+
+del name,age from staff_table where age>22
+
+del staff_table set age=24 where name=Jack Ma
+
+del staff_table set age=44 where name=Big Ma
